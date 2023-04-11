@@ -17,9 +17,12 @@
 
 <body>
 
-    <main class="bg-light">
+    <main class="bg-light py-5">
         <div class="container">
-            <div class="row">
+
+            <h1 class="text-center">Lista film</h1>
+
+            <div class="grid-box">
                 @foreach ($movies as $movie)
 
                 <div class="card" style="width: 18rem;">
